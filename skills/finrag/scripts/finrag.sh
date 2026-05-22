@@ -8,4 +8,4 @@
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-exec python3 "$SCRIPT_DIR/finrag.py" "$@"
+exec python "$SCRIPT_DIR/finrag.py" "$@"

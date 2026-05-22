@@ -11,7 +11,7 @@ Send local Markdown financial reports to the FinRAG API and save retrieved conte
 ## Usage
 
 ```bash
-python3 {{skills_dir}}/finrag/scripts/finrag.py <input_md_file> [options]
+python {{skills_dir}}/finrag/scripts/finrag.py <input_md_file> [options]
 ```
 
 ## Options
@@ -29,10 +29,10 @@ python3 {{skills_dir}}/finrag/scripts/finrag.py <input_md_file> [options]
 
 ```bash
 # Basic usage
-python3 {{skills_dir}}/finrag/scripts/finrag.py data/report.md
+python {{skills_dir}}/finrag/scripts/finrag.py data/report.md
 
 # Custom query
-python3 {{skills_dir}}/finrag/scripts/finrag.py data/report.md --query "分析资产负债结构" --max_loops 5
+python {{skills_dir}}/finrag/scripts/finrag.py data/report.md --query "分析资产负债结构" --max_loops 5
 ```
 
 ## Output

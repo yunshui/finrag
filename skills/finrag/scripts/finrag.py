@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """finrag — Financial Report RAG CLI client.
 
 Sends local Markdown files to the FinRAG API and saves the retrieved context.
