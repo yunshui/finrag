@@ -5,7 +5,7 @@ Send local Markdown financial reports to the FinRAG API and save retrieved conte
 ## Usage
 
 ```bash
-python3 {{skills_dir}}/finrag/finrag.py <input_md_file> [options]
+python3 {{skills_dir}}/finrag/scripts/finrag.py <input_md_file> [options]
 ```
 
 ## Options

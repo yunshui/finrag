@@ -9,4 +9,4 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SKILL_DIR="$(dirname "$SCRIPT_DIR")"
 
-exec python3 "$SKILL_DIR/finrag.py" "$@"
+exec python3 "$SCRIPT_DIR/finrag.py" "$@"
