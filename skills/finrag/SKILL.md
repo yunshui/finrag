@@ -1,3 +1,9 @@
+---
+name: finrag
+description: Financial Report RAG CLI client - sends local Markdown files to the FinRAG API and saves retrieved context
+version: 1.0.0
+---
+
 # finrag Skill
 
 Send local Markdown financial reports to the FinRAG API and save retrieved context.
