@@ -22,10 +22,10 @@ from pathlib import Path
 import requests
 
 # ── Paths ──────────────────────────────────────────────────────────────
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-CONFIG_PATH = PROJECT_ROOT / "setting.json"
-LOGS_DIR = PROJECT_ROOT / "logs"
-OUTPUT_DIR = PROJECT_ROOT / "output"
+SCRIPT_ROOT = Path(__file__).resolve().parent
+CONFIG_PATH = SCRIPT_ROOT / "setting.json"
+LOGS_DIR = SCRIPT_ROOT / "logs"
+OUTPUT_DIR = SCRIPT_ROOT / "output"
 
 
 # ── Config ─────────────────────────────────────────────────────────────
@@ -169,7 +169,7 @@ def save_output(cfg, result, input_name, logger, elapsed):
         f.write(context)
 
     line_numbers = extract_line_numbers(context)
-    rel_path = out_path.relative_to(PROJECT_ROOT)
+    rel_path = out_path.relative_to(SCRIPT_ROOT)
 
     logger.info(
         f"请求成功 | 耗时: {elapsed:.2f}s | 输出文件: {rel_path}"
