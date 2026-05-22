@@ -1,0 +1,5 @@
+curl --location --request POST 'http://123.192.49.73:8000/fin-rag' \
+--header 'client_id: bf-mkd' \
+--form 'file=@/C:/Users/gy/Desktop/example-mtr.md' \
+--form 'query=使用财务报表生成现金流' \
+--form 'max_loops=8'
