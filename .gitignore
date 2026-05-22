@@ -1,0 +1,16 @@
+# Runtime directories
+logs/
+output/
+
+# Configuration (may contain sensitive values)
+conf/setting.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
